@@ -1,3 +1,5 @@
+//https://www.tinkercad.com/things/8N4neAhwHQs-cinta-transportadora?sharecode=epTWz-_uQc-M6LffoyFC5rksoZ_1odxMxwKk8U7IgJc
+
 const int BTN_STOP = 12;
 const int BTN_START = 11;
 const int MOTOR_PIN = 13;
@@ -15,7 +17,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   int CURRENT_BTN_STOP_STATE = digitalRead(BTN_STOP);
   int CURRENT_BTN_START_STATE = digitalRead(BTN_START);
-  
+
   if(CURRENT_BTN_START_STATE == LOW ){
     MOTOR_STATE = true;
   }

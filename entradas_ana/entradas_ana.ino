@@ -1,3 +1,5 @@
+//https://www.tinkercad.com/things/hxhQBBc9dTt-senales-analogicas?sharecode=r3ORAvuMfP6g1BcKjSZLabRXFC26SDvW6qCLebCaSAs
+
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);

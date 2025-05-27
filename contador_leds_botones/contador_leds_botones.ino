@@ -1,8 +1,9 @@
-const int LEDS[] = {13,12,11,10,9,8}; 
+//https://www.tinkercad.com/things/lSB7dVbj3c0-contador-leds?sharecode=DM-B0UgpzgsUtcaT6zPlp9ht9_rqVeglymQXcp9X3nA
+
+const int LEDS[] = {13,12,11,10,9,8};
 const int MAXLEDS = sizeof(LEDS) / sizeof(LEDS[0]);
 const int BTN_INCREASE = 7;
 const int BTN_DECREASE = 6;
-
 
 void setup() {
   // put your setup code here, to run once:
@@ -21,7 +22,7 @@ int LAST_DECREASE_VALUE = HIGH;
 void loop() {
   int BTN_INCREASE_VALUE = digitalRead(BTN_INCREASE);
   int BTN_DECREASE_VALUE = digitalRead(BTN_DECREASE);
-  
+
   Serial.println(LEDS_OFF_COUTN);
 
   if(BTN_INCREASE_VALUE == LOW && LAST_INCREASE_VALUE == HIGH){

@@ -1,3 +1,5 @@
+//https://www.tinkercad.com/things/71GkPM1O0be-timer-?sharecode=GPlMGJeIFX1CBSafsQEDU5g3DtcXtalI5lJ0akeBG8Y
+
 const int PIN_LED_RED = 13;
 const int PIN_LED_GREEN = 12;
 const int PIN_BTN = 11;

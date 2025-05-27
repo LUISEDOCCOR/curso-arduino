@@ -1,3 +1,5 @@
+//https://www.tinkercad.com/things/jotwwp1qovL-funcion-boton?sharecode=JQBiD4eBT6iJNpbLI41OdjvRF8VsfArQgItsB-E1TWM
+
 const int BUTTON_PIN = 12;
 const int LED_PIN = 11;
 
